@@ -92,7 +92,7 @@ let respuesta = prompt("Coméntame cómo te ha ido hoy " +nombreGuardado+ " \n 1
             }
             break;
         case "3" :
-            alert ("Bueno, me alegra informarte que he llegado a mejorarte el día?");
+            alert ("Bueno, me alegra informarte que he llegado a mejorarte el día!");
             alert("Te voy a contar un pequeño chiste \n ¿Sabes que es un terapeuta? 1024 gigapeutas xdd")
             let respuestaChiste = prompt("¿Quieres otro chiste? \n 1 - Si \n 2 - No")
             switch (respuestaChiste) {

@@ -102,13 +102,13 @@ let respuesta = prompt("Coméntame cómo te ha ido hoy " +nombreGuardado+ " \n 1
                 break;
                 case "2":
                     alert("Está bien, pero te apuesto a que no sabías sobre este dato curioso: \n – Si los zombies llegan a la tercera edad…, ¿zombiejitos…?")
-                    alert("Jajajaja, hasta aquí mis chistes un saludito bro!")
+                    alert("Jajaja, hasta aquí mis chistes un saludito bro!")
                 break;
                 default:
                     break;
             }
+
             break;
-    
         default:
             alert("Por favor, elige una opción válida");
             break;

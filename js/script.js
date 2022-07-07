@@ -78,6 +78,7 @@ let respuesta = prompt("Coméntame cómo te ha ido hoy " +nombreGuardado+ " \n 1
                             case "1":
                                 alert ("Házme caso, no te arrepentirás")
                                 break;
+                            
                             case "2":
                                 alert ("Está bien, no te molesto más :(")
                                 break;
@@ -92,6 +93,20 @@ let respuesta = prompt("Coméntame cómo te ha ido hoy " +nombreGuardado+ " \n 1
             break;
         case "3" :
             alert ("Bueno, me alegra informarte que he llegado a mejorarte el día?");
+            alert("Te voy a contar un pequeño chiste \n ¿Sabes que es un terapeuta? 1024 gigapeutas xdd")
+            let respuestaChiste = prompt("¿Quieres otro chiste? \n 1 - Si \n 2 - No")
+            switch (respuestaChiste) {
+                case "1":
+                    alert("Perfecto, aquí te va otro \n ¿Qué le dice un .GIF a un .JPEG? Ánimate viejo!")
+                    alert("Jajajaja, hasta aquí mis chistes un saludito bro!")
+                break;
+                case "2":
+                    alert("Está bien, pero te apuesto a que no sabías sobre este dato curioso: \n – Si los zombies llegan a la tercera edad…, ¿zombiejitos…?")
+                    alert("Jajajaja, hasta aquí mis chistes un saludito bro!")
+                break;
+                default:
+                    break;
+            }
             break;
     
         default:
